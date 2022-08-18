@@ -11,24 +11,15 @@ from rest_framework_simplejwt.tokens import AccessToken
 
 from reviews.filters import GenreCategoryFilter
 from reviews.models import Category, Comment, Genre, Review, Title, User
+
 from .mixins import ListCreateDestroyViewSet
-from .permissions import (
-    IsAdmin,
-    IsAdminModeratorOwnerOrReadOnly,
-    IsAdminOrReadOnly,
-)
-from .serializers import (
-    CategorySerializer,
-    CommentSerializer,
-    GenreSerializer,
-    RegisterDataSerializer,
-    ReviewSerializer,
-    TitleGetSerializer,
-    TitlePostSerializer,
-    TokenSerializer,
-    UserEditSerializer,
-    UserSerializer,
-)
+from .permissions import (IsAdmin, IsAdminModeratorOwnerOrReadOnly,
+                          IsAdminOrReadOnly)
+from .serializers import (CategorySerializer, CommentSerializer,
+                          GenreSerializer, RegisterDataSerializer,
+                          ReviewSerializer, TitleGetSerializer,
+                          TitlePostSerializer, TokenSerializer,
+                          UserEditSerializer, UserSerializer)
 
 
 class CategoryViewSet(ListCreateDestroyViewSet):
