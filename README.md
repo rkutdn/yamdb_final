@@ -3,7 +3,8 @@
 ![workflow passing bage](https://github.com/rkutdn/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ## Описание проекта
-**YaMDB** – Проект YaMDb собирает отзывы пользователей на произведения
+**YaMDB** – Проект YaMDb собирает отзывы пользователей на произведения    
+Публичный адрес сервера: [158.160.8.42](http://158.160.8.42/)
 
 
 ## Как запустить проект в docker (dev-режим):
